@@ -17,13 +17,14 @@
   <script src='http://connect.facebook.net/en_US/all.js#xfbml=1'></script>
   
   <!--<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>-->
-  <script type="text/javascript" src="js/social_poll/social_poll.js"></script>
+  <script type="text/javascript" src="social_poll.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
       $('#poll').social_poll({
-        message: "in response to the story...",
-        options: ["Yes", "No"]
-        });
+        url     : "https://github.com/danwoods",
+        message : "in response to the story...",
+        options : ["Yes", "No"]
+      });
     });
   </script>
 </head>
